@@ -5,11 +5,10 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { CartComponent } from './cart/cart.component';
 import { CartItem } from '../models/cartItem';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CartModalComponent } from './cart-modal/cart-modal.component';
 
 @Component({
   selector: 'cart-app',
-  imports: [CatalogComponent, CartComponent, NavbarComponent,CartModalComponent],
+  imports: [CatalogComponent, CartComponent, NavbarComponent],
   templateUrl: './cart-app.component.html',
 })
 export class CartAppComponent implements OnInit{
