@@ -9,8 +9,8 @@ export const products: Product[]=[
     },
     {
         id:2,
-        name:'Smart TV',
-        description: 'Smart TV so good',
+        name:'Apple TV',
+        description: 'Apple TV so good',
         price:1100
     },
     {
@@ -21,20 +21,20 @@ export const products: Product[]=[
     },
     {
         id:4,
-        name:'Iphone',
+        name:'Iphone 14',
         description: 'Iphone so good',
         price:6000
     },
     {
         id:5,
-        name:'PC',
-        description: 'PC so good',
+        name:'MacBook',
+        description: 'MacBook so good',
         price:5000
     },
     {
         id:6,
-        name:'Nvidia ASUS RTX4900',
-        description: 'Nvidia so good',
+        name:'Ipad 10',
+        description: 'Ipad so good',
         price:4000
     },   
 
